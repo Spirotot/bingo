@@ -20,6 +20,3 @@ Example:
 python bingo-generator.py bingo.html 20
 ```
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hrs/bingo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
