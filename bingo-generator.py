@@ -27,11 +27,11 @@ head = ("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org
         "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n"
         "<title>Bingo Cards</title>\n"
         "<style type=\"text/css\">\n"
-        "\tbody { font-size: 10px; }\n"
+        "\tbody { font-size: 18px; }\n"
         "\ttable { margin: 20px auto; border-spacing: 2px; }\n"
         "\t.newpage { page-break-after:always; }\n"
         "\ttr { height: 60px; }\n"
-        "\ttd { text-align: center; border: thin black solid; padding: 5px; width: 60px; }\n"
+        "\ttd { text-align: center; border: thin black solid; padding: 5px; width: 55px; }\n"
         "</style>\n</head>\n<body>\n")
 
 def getRandom(low, high, used):
@@ -64,6 +64,7 @@ def check_unique_table(table):
 def generateNumbers():
     used = list()
     used.append(0)
+    #used.append(5) # We're missing #5, so we're appending #5 to this used list to avoid it showing up on any cards...
 
     while True:
         l = list()
